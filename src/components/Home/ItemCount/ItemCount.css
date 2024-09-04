@@ -1,0 +1,103 @@
+.ui.container {
+  flex-direction: column;
+  margin: 20px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.all-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.all-buttons div p {
+  font-size: 20px;
+
+  width: 35px;
+}
+
+.cart-button .ui.teal.button {
+  width: 131px;
+  height: 40px;
+  border-radius: 200px;
+}
+
+p {
+  font-size: 25px;
+  font-family: 'Gilroy-medium';
+  font-weight: 600;
+}
+
+button {
+  width: 35px;
+  height: 35px;
+  border-radius: 200px;
+  border: none;
+  outline: none;
+}
+
+.minus-button {
+  margin-right: 20px;
+}
+
+.cart-button {
+  margin-top: 30px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+button:disabled {
+  background: #fff;
+  font-size: 14px;
+}
+
+.btn_Carrito {
+  width: 131px;
+  height: 40px;
+  font-weight: bold;
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #000;
+}
+
+.center-btn-cart {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.center-btn-cart span {
+  font-family: 'Gilroy-light';
+  font-size: 16px !important;
+  margin-left: 10px;
+}
+
+.btn_Carrito:hover {
+  color: #fff;
+  transition: all 0.4s;
+}
+
+.ui.teal.button:hover,
+.ui.teal.buttons .button:hover {
+  background-color: #00b5ad !important;
+  opacity: 0.9;
+}
+
+.btn_Carrito:disabled:hover {
+  background-color: gray;
+}
+
+button .i.icon {
+  font-size: 20px;
+}
+
+.all-buttons .plus-button i.icon,
+.minus-button i.icon {
+  margin: 0 !important;
+}

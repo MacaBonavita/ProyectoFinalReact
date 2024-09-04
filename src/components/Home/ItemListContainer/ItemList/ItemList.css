@@ -1,0 +1,80 @@
+.ui.card > .content > .header,
+.ui.cards > .card > .content > .header {
+  font-family: 'Gilroy-medium' !important;
+}
+
+.ui.inline.loader {
+  margin-top: 300px !important;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1rem;
+
+  padding: 50px;
+  font-family: 'Gilroy-medium';
+}
+
+.ui.card {
+  margin: auto !important;
+
+  height: 500px;
+}
+
+.ui.card .image {
+  height: 60%;
+  background: #fff !important;
+  display: flex !important;
+}
+
+.ui.card .image img {
+  width: 80% !important;
+  margin: auto;
+}
+
+.ui.card .content {
+  height: 30%;
+  padding: 2em 1em !important;
+}
+
+.description {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.description > a {
+  text-align: center;
+}
+
+.ui.card .description p {
+  font-size: 17px;
+  margin-top: 10px !important;
+  margin-bottom: 20px !important;
+  color: #00a650;
+  font-family: 'Lato';
+}
+
+.description .ui.teal.button {
+  margin: auto !important;
+  width: 50%;
+  padding: 0;
+  border-radius: 4px;
+  font-family: 'Gilroy-medium' !important;
+  font-weight: 100 !important;
+}
+
+button a,
+button a:hover,
+button a:active {
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .card {
+    padding-top: 320px;
+  }
+}
